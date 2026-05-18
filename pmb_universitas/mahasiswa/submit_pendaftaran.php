@@ -376,6 +376,12 @@ $siapSubmit = $totalLengkap >= 5;
                                     Submitted
                                 </span>
 
+                            <?php elseif($status == 'selesai') : ?>
+
+                                <span class="status-badge status-submit">
+                                    Selesai
+                                </span>
+
                             <?php else : ?>
 
                                 <span class="status-badge status-draft">
